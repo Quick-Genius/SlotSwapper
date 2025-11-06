@@ -1,0 +1,93 @@
+.marketplace {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.marketplace h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.marketplace-description {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.slot-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.2s;
+}
+
+.slot-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.slot-header {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.slot-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.slot-owner {
+  color: #667eea;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.slot-time {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  color: #666;
+  font-size: 0.9375rem;
+}
+
+.time-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.slot-card .btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.125rem;
+  color: #666;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.empty-state p {
+  font-size: 1.125rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
